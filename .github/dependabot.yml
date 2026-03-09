@@ -87,3 +87,13 @@ updates:
       multi-ecosystem-group: dependabot-all
       patterns:
           - "*"
+
+    - package-ecosystem: npm
+      directory: /eslint-plugin-etc
+      schedule:
+        interval: daily
+
+    - package-ecosystem: npm
+      directory: /eslint-plugin-misc
+      schedule:
+        interval: daily
